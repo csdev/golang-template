@@ -7,11 +7,11 @@ with added machinery for running in Docker.
 
 ## Setup Instructions
 
-1. Fork the template repo.
+1. Select "use this template" to create a new Github repo based on this one.
 2. Replace `golang-template` with the name of the project.
 3. Optional customization:
-    1. Set the package name in `go.mod` if forking to a different Github organization.
-    2. Set the registry name in `docker-compose.yml` if deploying to a different Docker registry.
+    1. Set the package name in `go.mod` if deploying under a different Github user/organization.
+    2. Set the image name in `docker-compose.yml` if deploying to a different Docker registry or repository.
     3. If using dev containers, copy `.devcontainer.example` to `.devcontainer`.
 4. Ensure the software license is correct.
 5. Commit changes and begin developing.
